@@ -26,10 +26,11 @@ button[data-school="old"]{
     color: white;
     font-weight: 900;
     cursor: pointer;
-    transition: all 2s;
+    transition: padding 0.5s;
 }
 button[data-school="old"]:hover{
     background: linear-gradient(-300deg , rgb(224, 125, 140) , rgb(8, 88, 114));
+    padding: 1.2rem;
 }
 
 /*new school*/
@@ -43,8 +44,9 @@ button[data-school="new"]{
     color: white;
     font-weight: 900;
     cursor: pointer;
-    transition: all 2s;
+    transition: padding 1s;
     &:hover{
         background: linear-gradient(-300deg , rgb(224, 125, 140) , rgb(8, 88, 114));
+        padding: 1.2rem;
     }
 }
