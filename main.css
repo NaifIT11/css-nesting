@@ -19,7 +19,9 @@ button[data-school="old"]{
     background: linear-gradient(-50deg , rgb(224, 125, 140) , rgb(8, 88, 114));
     color: white;
     font-weight: 900;
+    cursor: pointer;
+    transition: all 2s;
 }
 button[data-school="old"]:hover{
-
+    background: linear-gradient(-300deg , rgb(224, 125, 140) , rgb(8, 88, 114));
 }
