@@ -52,3 +52,13 @@ button[data-school="new"]{
         padding: 1.2rem;
     }
 }
+
+
+@media (width <= 500px){
+    div.containerBtn{
+        flex-direction: column;
+        & > button:nth-child(2){
+            margin-top: 3rem;
+        }
+    }
+}
