@@ -11,7 +11,7 @@ body {
 
 /*old school*/
 
-button.changeBtn{
+button[data-school="old"]{
     display: block;
     border: none; outline: none;
     padding: 1rem;
@@ -19,4 +19,7 @@ button.changeBtn{
     background: linear-gradient(-50deg , rgb(224, 125, 140) , rgb(8, 88, 114));
     color: white;
     font-weight: 900;
+}
+button[data-school="old"]:hover{
+
 }
