@@ -11,8 +11,12 @@ body {
 
 /*old school*/
 
-button.mainBtn{
+button.changeBtn{
     display: block;
     border: none; outline: none;
-
+    padding: 1rem;
+    border-radius: 0.125rem;
+    background: linear-gradient(-50deg , rgb(224, 125, 140) , rgb(8, 88, 114));
+    color: white;
+    font-weight: 900;
 }
